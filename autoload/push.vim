@@ -70,10 +70,9 @@ function! s:ShiftRegisterLines(lines, type, leftwards) abort
 endfunction
 
 function! s:PlugMappingString(leftwards, put_command) abort
-  let l:plug = "\<Plug>Push"
-  let l:plug += a:leftwards ? 'Left' : 'Right'
-  let l:plug += a:put_command is# 'p' ? 'After' : 'Before'
-  return l:plug
+  return "\<Plug>Push"
+      \ . (a:leftwards ? 'Left' : 'Right')
+      \ . (a:put_command is# 'p' ? 'After' : 'Before')
 endfunction
 
 " Use {put_command} to put from {register} {count} times, shifting the register
