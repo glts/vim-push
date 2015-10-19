@@ -1,6 +1,6 @@
 " This plugin relies on the three-argument form of getreg() introduced in a
 " series of 7.4 patches.
-if exists('g:loaded_push') || !has('patch-7.4.249')
+if exists('g:loaded_push') || !has('patch-7.4.513')
   finish
 endif
 

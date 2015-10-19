@@ -46,4 +46,4 @@ By default, push.vim installs Normal mode mappings that correspond to
 Requirements
 ------------
 
-A relatively current Vim 7.4 (after patch 7.4.249).
+A relatively recent Vim 7.4 (after patch 7.4.513).
