@@ -1,0 +1,10 @@
+{
+    "name": "push.vim",
+    "description": "Like \"put\", pushing text past surrounding whitespace",
+    "version": "0.0.0-SNAPSHOT",
+    "author": "glts <676c7473@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/glts/vim-push.git"
+    }
+}
