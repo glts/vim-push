@@ -11,7 +11,7 @@ nnoremap <silent> <Plug>PushLeftBefore :<C-U>call push#Push(v:register, v:count1
 nnoremap <silent> <Plug>PushRightAfter :<C-U>call push#Push(v:register, v:count1, 'p', 0)<CR>
 nnoremap <silent> <Plug>PushRightBefore :<C-U>call push#Push(v:register, v:count1, 'P', 0)<CR>
 
-nmap <unique> [=p <Plug>PushLeftAfter
-nmap <unique> [=P <Plug>PushLeftBefore
-nmap <unique> ]=p <Plug>PushRightAfter
-nmap <unique> ]=P <Plug>PushRightBefore
+nmap [=p <Plug>PushLeftAfter
+nmap [=P <Plug>PushLeftBefore
+nmap ]=p <Plug>PushRightAfter
+nmap ]=P <Plug>PushRightBefore
